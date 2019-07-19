@@ -4,7 +4,7 @@
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 7777",
+    "dev": "next -H 0.0.0.0 -p 7777",
     "build": "next build",
     "start": "next start",
     "test": "NODE_ENV=test jest --watch",
@@ -45,7 +45,8 @@
     "enzyme-to-json": "^3.3.4",
     "graphql-tools": "^4.0.0",
     "jest": "^23.6.0",
-    "jest-transform-graphql": "^2.1.0"
+    "jest-transform-graphql": "^2.1.0",
+    "prettier": "^1.18.2"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
